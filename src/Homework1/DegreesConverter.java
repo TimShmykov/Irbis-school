@@ -1,8 +1,8 @@
-package Homework_1;
+package Homework1;
 
 import java.util.Scanner;
 
-public class Degrees_Converter {
+public class DegreesConverter {
     public static void main(String[] args) {
         System.out.println("Celsius to Farenheit converter");
         System.out.print("Ввудите градусы в Цельсиях: ");

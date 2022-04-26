@@ -1,6 +1,6 @@
-package Irbis_Lesson_2;
+package IrbisLesson2;
 
-public class Lesson_2 {
+public class Lesson2 {
     public static void main(String[] args) { // цикл for
 //        for (int i = 0; i < 10; i++) {
 //            System.out.println(i); // массивы ---> далее

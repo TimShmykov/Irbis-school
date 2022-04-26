@@ -1,4 +1,4 @@
-package Lesson_3;
+package Lesson3;
 
 public class Human {
     String name;

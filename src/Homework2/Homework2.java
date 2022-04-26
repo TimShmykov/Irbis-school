@@ -1,8 +1,8 @@
-package Homework_2;
+package Homework2;
 
 // import java.util.Arrays;
 
-public class Homework_2 {
+public class Homework2 {
     public static void main(String[] args) {
         int[][] array1 = {{3, 4, 5}, {4, 5, 6}, {2, 2, 2}}; // 1-ая матрица [3][3] L*M
         for (int i = 0; i < array1.length; i++) {
@@ -45,8 +45,8 @@ public class Homework_2 {
         }
         System.out.println();
 // этап транспонирования:
-        for (int i = 0; i < array3.length-1; i++) {
-            for (int j = 0; j < array3[i].length+1; j++) {
+        for (int i = 0; i < array3.length - 1; i++) {
+            for (int j = 0; j < array3[i].length + 1; j++) {
                 System.out.print(array3[j][i] + " ");
             }
             System.out.println();

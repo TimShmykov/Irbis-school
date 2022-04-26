@@ -1,4 +1,4 @@
-package Lesson_3; // хоткей для переименования - shift + F6
+package Lesson3; // хоткей для переименования - shift + F6
 
 public class Lesson3 {
     public static void main(String[] args) {// в начале модификаторы, потом возвращаемый тип, потом название и в() - параметры

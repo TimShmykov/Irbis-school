@@ -1,4 +1,4 @@
-package Lesson_3;
+package Lesson3;
 
 public class Student extends Human {  // ниже - поля класса, extends - наследует
     // String name = "Tim ";
