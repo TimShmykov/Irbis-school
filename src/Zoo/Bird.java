@@ -2,17 +2,11 @@ package Zoo;
 
 public class Bird extends Animal {
 
-    public Bird(String species, String name, String colour, int age) {
-        this.species = species; // выводим уникальные данные
-        this.name = name;
-        this.colour = colour;
-        this.age = age;
-        this.foots = 2; // данные, которые не меняются и не будут меняться можно указать сразу
-        this.wings = 2;
-        this.tail = 1;
-        this.predator = true;
-        this.voice = false;
+    private int wings;
 
+    public Bird(String species, String name, String colour, int age, boolean predator, int wings) {
+        super(species, name, colour, age, 2, true, 1, predator, false);
+        this.wings = wings;
 
         //  System.out.println(species + name + colour + "Возраст: " + age  + foots + wings + tail +  predator + voice);
     }
