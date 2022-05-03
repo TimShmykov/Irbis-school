@@ -1,6 +1,6 @@
 package Airport;
 
-public class SpaceShip extends BasicPlaneClass implements SpaceShipFunction {
+public class SpaceShip extends BasicPlane implements SpaceShipFunction {
     String jump;
     String attack;
     String deflectorOn;
@@ -13,17 +13,20 @@ public class SpaceShip extends BasicPlaneClass implements SpaceShipFunction {
     }
 
     @Override
-    public void hyperJump(String jump) {
-        SpaceShipFunction.super.hyperJump(this.jump);
+    public void hyperJump() {
+        System.out.println(jump);
     }
 
     @Override
-    public void attackMode(String attack) {
-        SpaceShipFunction.super.attackMode(this.attack);
+    public void attackMode() {
+        System.out.println(attack);
+
     }
 
     @Override
-    public void shieldUp(String deflectorOn) {
-        SpaceShipFunction.super.shieldUp(this.deflectorOn);
+    public void shieldUp() {
+        System.out.println(deflectorOn);
     }
+
+
 }
